@@ -22,7 +22,6 @@ int main(int argc, char** argv){
     int altura = atoi(my_str);
 
     printf("my_int: %i my_float: %f, my_char: %c, my_str: %s, my_ptr_int: %p \n", my_int, my_float, my_char,my_str, my_ptr_int );
-   
     printf("argc: %i \nelement 1: %d \nelement 2: %s \nchar: %c \n ",argc, base*altura, argv[2], 'L');
 
     return 0;
