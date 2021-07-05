@@ -20,7 +20,7 @@ def ep(a):
 
 if ep(a) == True:
     print("The number", a, "is prime", r)
-    ##print("",r)
+    # print("",r)
 else:
     print("The number", a, "isn't prime", r)
-    ##print("",r)
+    # print("",r)
