@@ -5,6 +5,9 @@
 #define TAN 10
 int lista[TAN] = {105, 20, 21, 40, 33, 60, 70, 50, 93, 100};
 int idx = 0;
+
+typedef int INTEGER;
+
 int main(int argc, char **argv)
 {
     int index2 = 0;
