@@ -27,7 +27,7 @@ if __name__ == "__main__":
     # ...
     # ...
     index = 0
-    while(index < 4):
+    while(index < len(lista)):
         print(f'index: {index}, value: {lista[index]}')
         index += 1
     ##print(f'programName:{argv[0]}my name is {myName}')
