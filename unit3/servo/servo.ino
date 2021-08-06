@@ -5,16 +5,16 @@ Servo servo1;
 int pwmOutput=4;
 void setup() {
   servo1.attach(pwmOutput);
-  servo1.write(0);
+  servo1.write(180);
 }
 
 void loop() {
-  valPot = analogRead(PotPin);
-  int rangeDegrees = map(valPot, 1024, 0,180,1);
-  servo1.write(rangeDegrees);
+  //valPot = analogRead(PotPin);
+  //int rangeDegrees = map(valPot, 1024, 0,180,1);
+  //servo1.write(rangeDegrees);
   
-  //for(int deg =0; deg<180; deg++){
-  //servo1.write(deg);
-  //delay(500);
-  // }
+  for(int deg =0; deg<=180; deg++){
+  servo1.write(deg);
+  delay(50);
+   }
 }
